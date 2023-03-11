@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://GITHUB-PLCNSK.github.io/rsschool-cv/cv
