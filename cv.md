@@ -5,7 +5,9 @@
 - **E-mail:** aleksprutik@gmail.com
 - **GitHub:** [plcnsk](https://github.com/plcnsk)
 - **Telegram:** @plcnsk
+
 ---
+
 ## Briefly About Myself:
 After leaving school, I entered the Belarusian State Technological University, which I graduated in 2018. He studied at the Department of TOV (technology of organic substances) and received a specialty engineer-chemist-technologist.
 
@@ -18,6 +20,7 @@ Since 2018, I have been doing photography, uploading my work to stock sites (suc
 At the end of 2022, he became interested in programming, took courses in HTML, css, javascript. Now I'm going through the preparatory course of Rolling Scope's school.
 
 ---
+
 ## Skills and Proficiency:
 - HTML5
 - CSS3, SASS
@@ -27,6 +30,7 @@ At the end of 2022, he became interested in programming, took courses in HTML, c
 - Adobe Photoshop(and uther products of Adobe)
 
 ---
+
 ## Code example:
 Quarter of the year(KATA from CODEWARS):
 
@@ -50,17 +54,21 @@ const quarterOf = (month) => {
   }
 }
 ```
+
 ---
+
 ## Education:
 - University: Belarusian State Technological University, Organic Substances Technology Faculty
 
 ---
+
 ## Courses:
 - JavaScript of Bogdan Stashchuk;
 - Git: Nail Alishev
 - CSS flexbox: Anton Larichev
 
 ---
+
 ## Languages:
 - English - A2(Pre-Intermediate)
 - Russian - Native
