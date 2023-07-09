@@ -1,1 +1,0 @@
-https://plcnsk.github.io/rsschool-cv/cv
