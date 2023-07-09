@@ -35,107 +35,147 @@
             <a href="#courses" class="navigation-link">Courses</a>
           </li>
           <li class="navigation-item">
+            <a href="#projects" class="navigation-link">Projects</a>
+          </li>
+          <li class="navigation-item">
             <a href="#languages" class="navigation-link">Languages</a>
           </li>
         </ul>
       </nav>
     </div>
   </header>
+  
   <main class="main">
-    <div class="container">
-      <div class="avatar">
-        <div class="avatar-img">
-          <img src="./assets/img/avka.jpg" alt="Aliaksei Pliutsinski" width="330">
+    <div class="container container-for-section">
+      <section class="left-section">
+        <div class="avatar">
+          <div class="avatar-img">
+            <img src="./assets/img/avka.jpg" alt="Aliaksei Pliutsinski" width="330">
+          </div>
+          <div class="about-avatar">
+            <h1>Aliaksei Pliutsinski</h1>
+            <p class="text-about">Front-End developer</p>
+          </div>
         </div>
-        <div class="about-avatar">
-          <h1>Aliaksei Pliutsinski</h1>
-          <p>Front-End developer</p>
+        <div class="contacts" id="contacts">
+          <h2>Contact information:</h2>
+          <ul>
+            <li>
+              <a href="https://goo.gl/maps/XfAcf3RDdG7R9btg9">Location: Warszawa, Poland</a>
+            </li>
+            <li>
+              <span>Phone:</span>
+              <a href="tel:+48730214476">+48 730 214 476</a>
+            </li>
+            <li>
+              <span>E-mail:</span>
+              <a href="mailto:aleksprutik@gmail.com">aleksprutik@gmail.com</a>
+            </li>
+            <li>
+              <span>GitHub:</span>
+              <a href="https://github.com/plcnsk">plcnsk</a>
+            </li>
+            <li>
+              <span>Telegram:</span>
+              <a href="https://t.me/aleksprutik">aleksprutik</a>
+            </li>
+          </ul>
         </div>
-      </div>
-      <div class="contacts" id="contacts">
-        <h2>Contact information:</h2>
-        <ul>
-          <li>Location: Warszawa, Poland</li>
-          <li>
-            <span>Phone:</span>
-            <a href="tel:+48730214476">+48 730 214 476</a>
-          </li>
-          <li>
-            <span>E-mail:</span>
-            <a href="mailto:aleksprutik@gmail.com">aleksprutik@gmail.com</a>
-          </li>
-          <li>
-            <span>GitHub:</span>
-            <a href="https://github.com/plcnsk">plcnsk</a>
-          </li>
-          <li>
-            <span>Telegram:</span>
-            <a href="https://t.me/aleksprutik">aleksprutik</a>
-          </li>
-        </ul>
-      </div>
-      <div class="about" id="about">
-        <h2>Briefly About Myself:</h2>
-        <p>After leaving school, I entered the Belarusian State Technological University, which I graduated in 2018. He studied at the Department of TOV (technology of organic substances) and received a specialty engineer-chemist-technologist. <br> After graduating from the university, I found a job at JSC Rechitsadrev in the city of Rechitsa, Gomel Region, where I worked as an engineer until 2020. <br> A few months after my dismissal, I moved from Belarus to Poland and work as an electrician in a solar panel installation company to this day. <br> Since 2018, I have been doing photography, uploading my work to stock sites (such as shutterstock and adobe stock), have good skills in: Photoshop, lightroom, and other adobe products. Well acquainted with the work of stocks. <br> At the end of 2022, he became interested in programming, took courses in HTML, css, javascript. Now I’m going through the preparatory course of Rolling Scope’s school.</p>
-      </div>
-      <div class="skills" id="skills">
-        <h2>Skills and Proficiency:</h2>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3, SASS</li>
-          <li>JavaScript</li>
-          <li>Git, GitHub</li>
-          <li>VS Code</li>
-          <li>Adobe Photoshop(and uther products of Adobe)</li>
-        </ul>
-      </div>
-      <div class="code" id="code">
-        <h2>Code example:</h2>
-        <p>Quarter of the year(KATA from CODEWARS): <br> Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number. <br> For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; and month 11 (November), is part of the fourth quarter.</p>
-        <pre><code>
-          const quarterOf = (month) => {
-          let quarter
-          if (month <= 3) {
-            return quarter = 1
+        <div class="skills" id="skills">
+          <h2>Skills and Proficiency:</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3, SASS</li>
+            <li>JavaScript</li>
+            <li>Git, GitHub</li>
+            <li>VS Code</li>
+            <li>Adobe Photoshop(and uther products of Adobe)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="right-section">
+        <div class="about" id="about">
+          <h2>Briefly About Myself:</h2>
+          <p>After leaving school, I entered the Belarusian State Technological University, which I graduated in 2018. He studied at the Department of TOV (technology of organic substances) and received a specialty engineer-chemist-technologist. <br> After graduating from the university, I found a job at JSC Rechitsadrev in the city of Rechitsa, Gomel Region, where I worked as an engineer until 2020. <br> A few months after my dismissal, I moved from Belarus to Poland and work as an electrician in a solar panel installation company to this day. <br> Since 2018, I have been doing photography, uploading my work to stock sites (such as shutterstock and adobe stock), have good skills in: Photoshop, lightroom, and other adobe products. Well acquainted with the work of stocks. <br> At the end of 2022, he became interested in programming, took courses in HTML, css, javascript. Now I’m going through the preparatory course of Rolling Scope’s school.</p>
+          <div class="border"></div>
+        </div>
+        <div class="code" id="code">
+          <h2>Code example:</h2>
+          <p>Quarter of the year(KATA from CODEWARS): <br> Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number. <br> For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; and month 11 (November), is part of the fourth quarter.</p>
+          <pre><code>
+            const quarterOf = (month) => {
+            let quarter
+            if (month <= 3) {
+              return quarter = 1
+            }
+            if (month <= 6) {
+              return quarter = 2
+            }
+            if (month <= 9) {
+              return quarter = 3
+            }
+            if (month <= 12) {
+              return quarter = 4
+            }
           }
-          if (month <= 6) {
-            return quarter = 2
-          }
-          if (month <= 9) {
-            return quarter = 3
-          }
-          if (month <= 12) {
-            return quarter = 4
-          }
-        }
-      </code></pre>
-      </div>
-      <div class="education" id="education">
-        <h2>Education:</h2>
-        <p>University: Belarusian State Technological University, Organic Substances Technology Faculty</p>
-      </div>
-      <div class="courses" id="courses">
-        <h2>Courses:</h2>
-        <ul>
-          <li>JavaScript by Bogdan Stashchuk</li>
-          <li>Git by Nail Alishev</li>
-          <li>CSS flexbox by Anton Larichev</li>
-        </ul>
-      </div>
-      <div class="languages" id="languages">
-        <h2>Languages:</h2>
-        <ul>
-          <li>English - A2(Pre-Intermediate)</li>
-          <li>Russian - Native</li>
-          <li>Belarusian - Native</li>
-          <li>Polish - B1(Intermediate)</li>
-        </ul>
-      </div>
+        </code></pre>
+        <div class="border"></div>
+        </div>
+        <div class="education" id="education">
+          <h2>Education:</h2>
+          <p>University: Belarusian State Technological University, Organic Substances Technology Faculty</p>
+          <div class="border"></div>
+        </div>
+        <div class="courses" id="courses">
+          <h2>Courses:</h2>
+          <ul>
+            <li>JavaScript by Bogdan Stashchuk</li>
+            <li>Git by Nail Alishev</li>
+            <li>CSS flexbox by Anton Larichev</li>
+          </ul>
+          <div class="border"></div>
+        </div>
+
+        <div class="projects" id="projects">
+          <h2>Projects:</h2>
+          <ul>
+            <li>
+              <a href="https://plcnsk.github.io/rsschool-cv/">My CV</a>
+            </li>
+            <li>
+              <a href="https://rolling-scopes-school.github.io/plcnsk-JSFE2023Q1/shelter/Main/index.html">Shelter for pets</a>
+            </li>
+          </ul>
+          <div class="border"></div>
+        </div>
+
+        <div class="languages" id="languages">
+          <h2>Languages:</h2>
+          <ul>
+            <li>English - A2(Pre-Intermediate)</li>
+            <li>Russian - Native</li>
+            <li>Belarusian - Native</li>
+            <li>Polish - B1(Intermediate)</li>
+          </ul>
+        </div>
+      </section>  
     </div>
+
   </main>
   <footer class="footer">
-    <div class="container">
-
+    <div class="container footer-container">
+      <div class="year-of-created">
+        <h3>© 2023 by Aliaksei Pliutsinski</h3>
+      </div>
+      <div class="footer-github">
+        <a href="https://github.com/plcnsk">GitHub</a>
+      </div>
+      <div>
+        <a href="https://rs.school/js/">
+          <img class="logo-course" src="./assets/svg/rs_school_js.svg" alt="rs school" width="100">
+        </a>
+      </div>
     </div>
   </footer>
 </body>

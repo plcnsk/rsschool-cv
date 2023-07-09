@@ -11,7 +11,26 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+  margin: 30px 0;
+  text-align: center;
+}
+
+a {
+  color: #000;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #e3c4c4;
+}
+
+pre {
+  margin: 0;
+}
+
+.border {
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgb(98, 97, 97);
 }
 
 body {
@@ -23,8 +42,12 @@ body {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+.navigation {
+  margin: 10px 0;
 }
 
 .navigation-list {
@@ -36,6 +59,7 @@ body {
 }
 
 .navigation-link {
+  position: relative;
   padding: 0 15px;
   line-height: 120%;
   color: rgb(5, 5, 5);
@@ -45,6 +69,68 @@ body {
 
 .navigation-link:hover {
   color: rgb(98, 97, 97);
-  border-bottom: 4px solid rgb(124, 17, 17);
-  border-radius: 4px;
+  border-bottom: 3px solid rgb(220, 98, 118);
+  border-radius: 1px;
+}
+
+.container-for-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-section {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right-section {
+  width: 600px;
+  padding: 0 50px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.text-about {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 2px solid black;
+}
+
+.contacts {
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.year-of-created > h3 {
+  margin: 0;
+}
+
+.footer-github > a {
+  color: black;
+  font-size: 20px;
+
+  transition: 0.3s;
+}
+
+.footer-github > a:hover {
+  color: #b5b3b3;
+}
+
+.logo-course {
+  transition: 0.3s;
+}
+
+.logo-course:hover {
+  background-color: #cac0c0;
+  border-radius: 5%;
 }
